@@ -1,0 +1,18 @@
+<template>
+    <H1>
+        Create Invoice
+    </H1>
+    <lightning-input type="text" label="Invoice Number" value={invoiceNumber} onchange={handleInvoiceNumberChange}></lightning-input>
+    <lightning-input type="text" label="Invoice Date" value={invoiceDate} onchange={handleInvoiceDateChange}></lightning-input>
+    <lightning-input type="text" label="Due Date" value={dueDate} onchange={handleDueDateChange}></lightning-input>
+    <lightning-input type="text" label="Customer Name" value={customerName} onchange={handleCustomerNameChange}></lightning-input>
+    <lightning-input type="text" label="Customer Address" value={customerAddress} onchange={handleCustomerAddressChange}></lightning-input>
+    <lightning-input type="text" label="Customer Email" value={customerEmail} onchange={handleCustomerEmailChange}></lightning-input>
+    <lightning-input type="text" label="Customer Phone" value={customerPhone} onchange={handleCustomerPhoneChange}></lightning-input>
+    <lightning-input type="text" label="Customer Bank Name" value={customerBankName} onchange={handleCustomerBankNameChange}></lightning-input>
+    <lightning-input type="text" label="Customer Bank Account Number" value={customerBankAccountNumber} onchange={handleCustomerBankAccountNumberChange}></lightning-input>
+    <lightning-input type="float" label = "Total Amount" value={totalAmount} onchange={handleTotalAmountChange}></lightning-input>
+    <lightning-input type="float" label = "Total Tax" value={totalTax} onchange={handleTotalTaxChange}></lightning-input>
+
+
+</template>
